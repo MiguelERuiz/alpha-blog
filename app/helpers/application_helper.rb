@@ -3,6 +3,6 @@ module ApplicationHelper
     username = user.username.downcase
     size = options[:size]
     robohash_url = "https://robohash.org/#{username}?size=#{size}x#{size}"
-    image_tag(robohash_url, alt: user.username, class: "rounded mx-auto shadow bg-light d-block")
+    image_tag(robohash_url, alt: user.username, class: 'rounded mx-auto shadow bg-light d-block')
   end
 end
