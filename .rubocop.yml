@@ -3984,7 +3984,7 @@ Style/SymbolArray:
   Enabled: true
   VersionAdded: '0.9'
   VersionChanged: '0.49'
-  EnforcedStyle: percent
+  EnforcedStyle: brackets
   MinSize: 2
   SupportedStyles:
     - percent
