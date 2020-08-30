@@ -37,8 +37,7 @@
 /config/master.key
 
 
-/public/packs/manifest.json.*
-/public/packs/js/**
+/public/packs/
 /public/packs-test
 /node_modules
 /yarn-error.log
